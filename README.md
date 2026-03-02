@@ -41,5 +41,3 @@ This project is an Android application designed to demonstrate how to interact w
 ## License
 This project is for educational purposes. See the LICENSE file for details.
 
-## Credits
-Based on the tutorial by [swethad31](https://github.com/swethad31/phpmysqltutorial_app).
