@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/too2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="INSERTION" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:paddingLeft="10dp"
+                android:text="MySQL INSERT INTO Statement"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="The INSERT INTO statement is used to insert new records in a table."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:text='SYNTAX :'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="INSERT INTO table_name
+                            VALUES (value1, value2, value3, ...);"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/te5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Insert Data Only in Specified Columns"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tex16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="It is also possible to only insert data in specific columns.
+
+                                            The following SQL statement will insert a new record, but only insert data in the 'CustomerName', 'City', and 'Country' columns (CustomerID will be updated automatically):"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tex17"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="EXAMPLE : "
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/chec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

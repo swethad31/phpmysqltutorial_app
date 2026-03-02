@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/too2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="TIPS AND TRICKS" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:backgroundTint="#FFFCFC"
+                android:text="1. BOOLEAN DATA TYPE"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="Depending on what type of data you’re dealing with, PHP can allow for either uppercase or lowercase characters. For example, in the case where it is necessary to define true and false values, there are conditional statements that use ‘if’ followed by sentences defining their value as boolean- TRUE/FALSE.
+
+                                                          Lowercase words are more efficient when it comes to performance. For example, if you’re looking for true speed with your coding, then use ‘true’ or ‘false’ instead of TRUE AND FALSE!
+
+                                                Moreover, PHP developers can take advantage of more shortcuts for defining Boolean values, and those are using ‘1’ instead of True or 0 to represent false. This will make your code faster!
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text='2. Print and Echo Outputs
+'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="When it comes to printing text in the browser, PHP programmers have two options: use print() and echo(). The former produces clean and accurate results, whereas later may not be so tidy when dealing with spaces within your message.
+
+The behaviour of both functions is different.
+                                                                              For example:
+
+Print() function return value integer 1. Same like other functions do
+Echo() returns no value but accept more than 1 parameter at a time
+The print() function is used more in complex expressions, so it takes longer to execute.
+
+However, echo() returns the status of your program and can be faster than using nothing at all with this particular line of code due to its ability just send messages back through strings instead of returning something like an int or string variable, which would have been printed by default anyway since they’re usually easier for humans reading over codes.
+
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:text="3. Single and Double Quotes
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textColor="#2196F3"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="The single or double quote mark can have a significant impact on the way you write your code. Programmers should always use both quotes when needed to make sure there are no errors in programming, and it will improve readability for other people who may come across them later down the line!
+
+                                                                                                You can think of the double quote as being more cumbersome than single quotes because you have to type it in multiple places. However, this will slow down your processing speed when looping through a thousand iterations; however, using a single quote prove a feasible choice here.
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/chec2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="4.Using References"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="When you want a function to alter the original variable without any expectations of return, or if defined globally and accessed through reference, then use an ampersand sign."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:text=" 5. Using a Good Source Editor"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="Switching over to a good code editor can be a big help when writing in PHP. A source editor like Sublime Text or Notepad++ comes with syntax highlighting, which makes it easier to identify errors before they occur, as well as auto-completion features that make it easy to know exactly what’s possible at any given time.
+
+If you haven’t used editing in one of these yet, it can take some time to get used to (especially if you’re a Vim or Emacs user). Regardless of what you choose, though, your life will be much easier once you do. And of course, best practices are always useful for making sure code is clean and easy to read for others."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text28"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FDFCFC"
+                android:textColor="#2196F3"
+                android:paddingLeft="10dp"
+                android:text=" 6. Use descriptive names for data tables"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/chec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="When naming our data tables and table columns, it is advisable to use names as simple, easy to understand and descriptive as possible. This will make our work much easier when performing queries and executing our commands.
+It is more advisable to use descriptive names than to use short names that are not understood.
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text30"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:textColor="#2196F3"
+                android:text=" 7. Use uppercase and lowercase letters to distinguish between elements
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/checked19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text=" Although it is not mandatory because SQL does not distinguish between uppercase and lowercase letters, most data analysts use lowercase for tables and columns and uppercase for the rest.
+This distinction between lowercase and uppercase makes queries easier to read and understand.
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text34"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:text=' 8 .Do not use too many tables
+'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="The organization of databases in tables facilitates the understanding of the data and their relationships. However, it is not advisable to use a large number of one- or two-column tables, since this data can probably be integrated into other tables.
+
+Having fewer tables will simplify the work and avoid overloading the database.
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text36"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:textColor="#2196F3"
+                android:paddingLeft="10dp"
+                android:text=" 9. Be careful with dots
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="Do not use dots in table, column and field names. In SQL dots are used to separate tables from fields. Continuing with the previous example, when you want to refer to another element, use the underscore: «tablename_id».
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+             <Space
+                 android:layout_width="match_parent"
+                 android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text40"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text=" 10. Store dates as datetime
+"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="The inclusion of dates is one of the most complex SQL clauses. Therefore, good SQL practices advise to store days, months and years in the format of the 'datetime' field. It is easiest to store a single time zone to avoid complications when analyzing time series."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

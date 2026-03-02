@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tool"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="SYNTAX AND COMMENTS" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="603dp"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:text="Basic PHP Syntax"
+                android:paddingLeft="10dp"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checkedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="•	A PHP script can be placed anywhere in the document.
+
+                                                                                      •	The default file extension for PHP files is '.php'."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text='Example:'
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="223dp"
+                app:srcCompat="@drawable/example" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Case Sensitivity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checkedTextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="*	 In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and  user-defined functions are not case-sensitive.
+                                                                           *  However; all variable names are case-sensitive!
+
+
+"
+                android:textAlignment="gravity"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Comments"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checkedTextView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="A comment in PHP code is a line that is not executed as a part of the program. Its only purpose is to be read by someone who is looking at the code.
+                                                                                                                                    Comments can be used to:
+                                                                                                                             •	Let others understand your code
+                                                                                                                      •	Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/checkedTextView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="PHP supports several ways of commenting:
+                                                                                                                 •	Single-line Commenting
+                                                                                                                    •	Multi-line Commenting
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/single" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="457dp"
+                app:srcCompat="@drawable/multi" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

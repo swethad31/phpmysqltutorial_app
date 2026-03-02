@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tool"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="PHP INTRODUCTION" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="What is PHP?                                                                   PHP is an acronym for PHP: Hypertext Preprocessor. PHP is a widely-used, open source scripting language. PHP scripts are executed on the server. PHP is free to download and use"
+                android:textAlignment="inherit"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="What is the history of PHP ?
+                          PHP was developed by Rasmus Lerdorf in 1995 and is later being developed as an open-source. PHP group now manages the implementation of PHP. PHP has many syntaxes similar to C, Java, and Perl, and has many unique features and specific functions. "
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="Why PHP?                                                                    PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.).PHP is compatible with almost all servers used today (Apache, IIS, etc.).PHP supports a wide range of databases.PHP is free. Download it from the official PHP resource: www.php.net.PHP is easy to learn and runs efficiently on the server side"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What's new in PHP7                                           PHP 7 is much faster than the previous popular stable release (PHP 5.6)
+PHP 7 has improved Error Handling
+PHP 7 supports stricter Type Declarations for function arguments
+ "
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</ScrollView>

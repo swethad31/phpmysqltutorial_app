@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/download"
+        android:label="PHP and MYSQL Learning Tutorial App"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Phpandmysqltutorial"
+        tools:targetApi="31">
+        <activity
+            android:name=".tipsandtricks.tipsandtricks"
+            android:exported="false"
+            android:parentActivityName=".tipsandtricks.tipsandtricks"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.view"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.sortdata"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.insertingrecords"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.tablecreation"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.radius"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.table"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.array"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.login"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".interview.interview"
+            android:exported="false"
+            android:parentActivityName=".interview.interview"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".basicexamples.basic"
+            android:exported="false"
+            android:parentActivityName=".basicexamples.basic"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".software.software"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.limitdata"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.selection"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.deletion"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.updation"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.insertion"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.creation"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.mysqlintro"
+            android:exported="false"
+            android:parentActivityName=".mysqltutorial.mysqltutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.sessionsandcookies"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.file"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.formhandling"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".quiz.QuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".quiz.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mysqltutorial.mysqltutorial"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.condtionalandloops"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.consonants"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.strings"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.variablesstringsanddatatypes"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.syntaxandcomments"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.phpintroduction"
+            android:exported="false"
+            android:parentActivityName=".phptutorial.phptutorial"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phptutorial.phptutorial"
+            android:exported="false"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Phpandmysqltutorial.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

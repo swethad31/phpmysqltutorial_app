@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/too9"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="SESSIONS and COOKIES" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="603dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Sessions"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="A session is a way to store information (in variables) to be used across multiple pages. Unlike a cookie, the information  is  not  stored  on  the  users  computer.
+
+"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text='What is a PHP Session?'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="When you work with an application, you open it, do some changes, and then you close it. This is much like a Session. The computer knows who you are. It knows when you start the application and when you end. But on the internet there is one problem: the web server does not know who you are or what you do, because the HTTP address doesn't maintain state.
+
+                                                   Session variables solve this problem by storing user information to be used across multiple pages (e.g. username, favorite color, etc). By default, session variables last until the user closes the browser.
+
+So;Session variables hold information about one single user, and are available to all pages in one application."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/te5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Start a PHP Session"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tex16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="* A session is started with the session_start() function.
+
+                                                 * Session variables are set with the PHP global variable: $_SESSION."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tex17"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Destroy a PHP Session"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/check4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="To remove all global session variables and destroy the session, use session_unset() and session_destroy()"
+                android:textAlignment="gravity"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Cookies"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="A cookie is often used to identify a user. A cookie is a small file that the server embeds on the user's computer. Each time the same computer requests a page with a browser, it will send the cookie too. With PHP, you can both create and retrieve cookie values."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Create Cookies With PHP"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="A cookie is created with the setcookie() function."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="setcookie(name, value, expire, path, domain, secure, httponly);
+                                                            Only the name parameter is required.
+                                                    All other parameters are optional."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Modify a Cookie Value"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="To modify a cookie, just set (again) the cookie using the setcookie() function"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Delete a Cookie"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="To delete a cookie, use the setcookie() function with an expiration date in the past"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

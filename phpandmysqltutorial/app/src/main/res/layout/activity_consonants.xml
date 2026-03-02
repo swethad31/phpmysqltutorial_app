@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/too2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="CONSTANTS and OPERATORS" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="603dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:text="  PHP Constants"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+
+                                                                                    A valid constant name starts with a letter or underscore (no $ sign before the constant name).
+
+                                                             Note: Unlike variables, constants are automatically global across the entire script."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="390dp"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:text='  Create a PHP Constant'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="To create a constant, use the define() function."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:text="  Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="define(name,value,case-insensitive)
+
+                                                                Parameters:
+
+                                                                      name: Specifies the name of the constant
+                                                         value: Specifies the value of the constant
+                                                         case-insensitive: Specifies whether the constant name should be case-insensitive.
+                                                         Default is false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/te5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tex16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="Operators are used to perform operations on variables and values.
+
+                                                                                             PHP divides the operators in the following groups:
+
+                                                                                 1) Arithmetic operators
+                                                    2) Assignment operators
+                                                    3) Comparison operators
+                                                    4) Increment/Decrement operators
+                                                    5) Logical operators
+                                                                               6) String operators
+                                                                               7) Array operators
+                                                                                8) Conditional assignment operators"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tex17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Arithmetic Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/check4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP arithmetic operators are used with numeric values to perform common arithmetical operations, such as addition, subtraction, multiplication etc.
+"
+                android:textAlignment="gravity"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img9"
+                android:layout_width="wrap_content"
+                android:layout_height="600dp"
+                app:srcCompat="@drawable/arith" />
+
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Assignment Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP assignment operators are used with numeric values to write a value to a variable.
+
+The basic assignment operator in PHP is '='. It means that the left operand gets set to the value of the assignment expression on the right."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="600dp"
+                app:srcCompat="@drawable/assign" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:background="#FDFCFC"
+                android:text="PHP Comparison Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP comparison operators are used to compare two values (number or string):"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="700dp"
+                app:srcCompat="@drawable/comp" />
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="wrap_content"
+                android:layout_height="850dp"
+                app:srcCompat="@drawable/compa" />
+
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Increment/Decrement Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP increment operators are used to increment a variable's value.
+
+The PHP decrement operators are used to decrement a variable's value."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="700dp"
+                app:srcCompat="@drawable/increment" />
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FDFCFC"
+                android:text="PHP Logical Operators"
+                android:paddingLeft="10dp"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP logical operators are used to combine conditional statements."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="match_parent"
+                android:layout_height="1280dp"
+                app:srcCompat="@drawable/logical" />
+
+
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP String Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="PHP has two operators that are specially designed for strings."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="wrap_content"
+                android:layout_height="222dp"
+                app:srcCompat="@drawable/string" />
+
+            <TextView
+                android:id="@+id/text24"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Array Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#FDFCFC"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP array operators are used to compare arrays"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="wrap_content"
+                android:layout_height="710dp"
+                app:srcCompat="@drawable/array" />
+
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="match_parent"
+                android:layout_height="471dp"
+                app:srcCompat="@drawable/arrays" />
+
+            <TextView
+                android:id="@+id/text25"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Conditional Assignment Operators"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingBottom="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The PHP conditional assignment operators are used to set a value depending on conditions:"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/img16"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                app:srcCompat="@drawable/condition" />
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

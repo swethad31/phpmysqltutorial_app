@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/backcolor"
+    tools:context=".software.software">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/too12"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#4facfe"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="start"
+            android:background="#4facfe"
+            android:contentDescription="@string/app_name"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_back_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="  SOFTWARE INSTALLATION"
+            android:textColor="#1E1D1D"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <VideoView
+        android:id="@+id/simplevideoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

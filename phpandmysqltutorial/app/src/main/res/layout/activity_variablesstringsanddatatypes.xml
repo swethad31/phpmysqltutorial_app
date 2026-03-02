@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backcolor"
+android:contentDescription="@string/app_name"
+android:foregroundTint="#FCF5F5"
+android:textAlignment="inherit"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:ignore="ScrollViewCount">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/too"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#4facfe"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="VARIABLES AND DATA TYPES" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="603dp"
+            android:layout_height="43dp"
+            android:background="#FDFCFC"
+            android:backgroundTint="#FFFCFC"
+            android:text="PHP Variables"
+            android:paddingLeft="10dp"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="A variable can have a short name (like x and y) or a more descriptive name (age, car name, total_volume).
+                                                                        Rules for PHP variables:
+                                                          •	A variable starts with the $ sign,followed by the name of the variable
+                                                                                      •	A variable name must start with a letter or the underscore character
+                                                               •	A variable name cannot start with a number
+                                                                       •	A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+                                                •	Variable names are case-sensitive ($age and $AGE are two different variables)
+                                                                 Remember that PHP variable names are case-sensitive!
+
+
+"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text='Example:
+                                                             In PHP, a variable starts with the $ sign, followed by the name of the variable:'
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/variable" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:text="PHP echo and print Statements"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#2196F3"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checked1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="echo and print are more or less the same.
+They are both used to output data to the screen.
+The differences are small:
+echo has no return value while print has a return value of 1 so it can be used in expressions.
+ echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print.
+
+"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="#FDFCFC"
+            android:text="PHP Data Types"
+            android:paddingLeft="10dp"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checked2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:lineSpacingExtra="2sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Variables can store data of different types, and different data types can do different things.
+                                                         PHP supports the following data types:
+                                                                                •	String
+                                                                                            •	Integer
+                                                                                      •	Float (floating point numbers - also called double)
+                                                                                    •	Boolean
+                                                                                        •	Array
+                                                                                                 •	Object
+                                                                                                      •	NULL
+                                                                                                       •	Resource
+                                                                                  •	Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollIndicators="right"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="php tutorial"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_menu_book_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="mysql tutorial"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_menu_book_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="basic examples"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_post_add_24"
+                app:iconGravity="start"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="interview questions"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_question_answer_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="Quiz"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_quiz_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="software installation"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_file_download_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/amarante"
+                android:text="tips and tricks"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_baseline_tips_and_updates_24"
+                app:iconSize="@android:dimen/notification_large_icon_height"
+                app:iconTint="@color/black" />
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

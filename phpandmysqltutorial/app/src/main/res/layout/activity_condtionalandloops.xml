@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    android:textAlignment="inherit"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/too2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="CONDITIONAL STATEMENTS AND LOOPS" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="603dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Conditional Statements"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="In PHP we have the following conditional statements:
+                                                                                     * if statement - executes some code if one condition is true
+                                                                                                                      * if...else statement - executes some code if a condition is true and another code if that condition is false
+                                                                                                                      * if...elseif...else statement - executes different codes for more than two conditions
+                                                                                  * switch statement - selects one of many blocks of code to be executed"
+                android:textSize="20sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text='The if Statement'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="The if statement executes some code if one condition is true."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/cone" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="The if...else Statement"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The if...else statement executes some code if a condition is true and another code if that condition is false."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/dece" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="The if...elseif...else Statement"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The if...elseif...else statement executes different codes for more than two conditions."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text28"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/dece" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="The switch Statement"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="Use the switch statement to select one of many blocks of code to be executed."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text30"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/swi" />
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="603dp"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:paddingLeft="10dp"
+                android:text="PHP Loops"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/checked19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="In PHP, we have the following loop types:
+
+                                                           1) while - loops through a block of code as long as the specified condition is true
+                                                                                    2) do...while - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+                                                                                              3) for - loops through a block of code a specified number of times
+                                                                                     4) foreach - loops through a block of code for each element in an array"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text34"
+                android:layout_width="390dp"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text='while Loop'
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The while loop executes a block of code as long as the specified condition is true."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text36"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img29"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/cat" />
+
+            <TextView
+                android:id="@+id/text37"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="do...while Loop"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The do...while loop will always execute the block of code once, it will then check the condition, and repeat the loop while the specified condition is true."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text29"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img21"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/cate" />
+
+            <TextView
+                android:id="@+id/text40"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="for Loop"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The for loop is used when you know in advance how many times the script should run."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text38"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img23"
+                android:layout_width="wrap_content"
+                android:layout_height="178dp"
+                app:srcCompat="@drawable/catec" />
+
+            <TextView
+                android:id="@+id/text31"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="foreach Loop"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chec34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="The foreach loop works only on arrays, and is used to loop through each key/value pair in an array."
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text33"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Syntax:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/img24"
+                android:layout_width="wrap_content"
+                android:layout_height="114dp"
+                app:srcCompat="@drawable/catech" />
+
+            <TextView
+                android:id="@+id/chec44"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:text="Break and Continue"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFCFC"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="10dp"
+                android:text="* The break statement can also be used to jump out of a loop.
+                              * The continue statement breaks one iteration , if a specified condition occurs, and continues with the next iteration in the loop."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

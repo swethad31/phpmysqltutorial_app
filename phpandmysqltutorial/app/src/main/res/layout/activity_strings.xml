@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backcolor"
+android:contentDescription="@string/app_name"
+android:foregroundTint="#FCF5F5"
+android:textAlignment="inherit"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:ignore="ScrollViewCount">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/too1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#4facfe"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="STRINGS" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="603dp"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:backgroundTint="#FFFCFC"
+            android:paddingLeft="10dp"
+            android:text="PHP Strings"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checked4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="A string is a sequence of characters, like 'Hello world!'."
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:text='strlen() - Return the Length of a String'
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="The PHP strlen() function returns the length of a string."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/te"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FDFCFC"
+            android:text="Example"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="311dp"
+            app:srcCompat="@drawable/strlen" />
+
+        <TextView
+            android:id="@+id/tex5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Output:"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:text="12"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/check4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:text="str_word_count() - Count Words in a String
+"
+            android:textAlignment="gravity"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/check5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="The PHP str_word_count() function counts the number of words in a string."
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:text="Example"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/wordcount" />
+
+        <TextView
+            android:id="@+id/tex7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:background="#FDFCFC"
+            android:text="Output:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="2"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="#FDFCFC"
+            android:text="strrev() - Reverse a String"
+            android:textColor="#2196F3"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chec2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="The PHP strrev() function reverses a string. "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Example"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/rev" />
+
+        <TextView
+            android:id="@+id/tex9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Output:"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FDFCFC"
+            android:text="!dlrow olleH"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FDFCFC"
+            android:text="strpos() - Search For a Text Within a String"
+            android:textColor="#2196F3"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chec3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="The PHP strpos() function searches for a specific text within a string. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE. "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/tex3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Example"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/pos" />
+
+        <TextView
+            android:id="@+id/tex12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Output:"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:text="str_replace() - Replace Text Within a String"
+            android:textColor="#2196F3"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chec4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#FDFCFC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="2sp"
+            android:text="The PHP str_replace() function replaces some characters with some other characters in a string."
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/tex4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Example"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/replace" />
+
+        <TextView
+            android:id="@+id/tex14"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FDFCFC"
+            android:text="Output:"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FDFCFC"
+            android:text="Hello Dolly!"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+</ScrollView>

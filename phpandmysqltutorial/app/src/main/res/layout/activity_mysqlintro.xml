@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:contentDescription="@string/app_name"
+    android:foregroundTint="#FCF5F5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="ScrollViewCount">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tool10"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#4facfe"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="MYSQL INTRODUCTION" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What is MySQL?"
+                android:textAlignment="inherit"
+                android:textColor="#039BE5"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:text="# MySQL is a relational database management system
+                                                   # MySQL is open-source
+                                                     # MySQL is free
+                                                # MySQL is ideal for both small and large applications
+                                                       # MySQL is very fast, reliable, scalable, and easy to use
+                                                       # MySQL is cross-platform
+                                                       # MySQL is compliant with the ANSI SQL standard
+                                                         # MySQL was first released in 1995
+                                                     # MySQL is developed, distributed, and supported by Oracle Corporation
+                                                    # MySQL is named after co-founder Monty Widenius's daughter: My "
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:textColor="#039BE5"
+                android:text="Who Uses MySQL?"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"/>
+
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:text="Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.
+Content Management Systems like WordPress, Drupal, Joomla!, Contao, etc.
+A very large number of web developers around the world
+ "
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</ScrollView>
