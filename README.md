@@ -2,13 +2,6 @@
 
 This project is an Android application designed to demonstrate how to interact with PHP and MySQL from a mobile app. It serves as a practical tutorial for integrating backend web technologies with Android, enabling users to learn and experiment with database-driven mobile development.
 
-## Features
-- Connects to a PHP backend and MySQL database
-- Demonstrates CRUD operations (Create, Read, Update, Delete)
-- Sample code for network requests and data handling
-- Organized project structure for easy learning
-- Includes sample data and test suites
-
 ## Project Structure
 - `app/src/main/java/` — Main source code for the Android app
 - `app/src/main/res/` — App resources (layouts, images, etc.)
